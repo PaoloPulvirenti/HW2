@@ -1,0 +1,130 @@
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteinerDati, .conteinerLike, .conteinerRec, .conteinerPassword
+{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    max-height: 500px;
+    border: 2px solid black;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.conteinerLike h1, .conteinerRec h1 , .conteinerDati h1
+{
+    font-size: 1.4rem;    
+    top: 2px;
+    left: 10px;
+
+}
+
+.conteinerRec .conteinerDIVALLRec
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    overflow-y: auto;
+    margin: 0; 
+    width: 100%;
+    height: 100%;
+}
+
+.conteinerRec .conteinerDIVALLRec div
+{
+    margin: 5px 0;
+    width: 90%;
+
+}
+
+.conteinerRec .conteinerDIVALLRec div img
+{
+    margin: 0 5px;
+}
+
+.conteinerRec .conteinerDIVALLRec div p
+{
+    font-size: 1.4rem;
+}
+
+
+
+.conteinerLike .conteinerDIVALL
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    overflow-x: auto;
+    margin: 0; 
+    width: 100%;
+}
+
+
+.conteinerLike .conteinerDIVALL div, .conteinerRec div
+{
+    margin: 0 5px;
+
+}
+
+.conteinerRec div div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.conteinerLike div div img, .conteinerRec div div img
+{
+
+    width: 150px;
+    height: 150px;
+}
+
+.conteinerLike div div .imgheart2
+{
+    width: 30px;
+    height: 30px;
+}
+
+.conteinerLike div div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    overflow-x: none;     
+}
+
+
+
+
+.conteinerDati div, .conteinerPassword div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.conteinerDati div p,.conteinerPassword div p
+{
+    font-size: 1.5rem;
+}
+
+.conteinerDati div input 
+{
+    height: 20px;
+    z-index: -1;
+    width: 270px;
+}
+.conteinerPassword div input
+{
+    height: 20px;
+    width: 270px;
+}
